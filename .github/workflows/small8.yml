@@ -1,4 +1,4 @@
-name: Sync packages
+name: Sync packagess
 
 on:
   push:
