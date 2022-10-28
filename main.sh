@@ -22,6 +22,7 @@ git clone --depth 1 https://github.com/kiddin9/luci-theme-edge
 git clone --depth 1 https://github.com/kiddin9/qBittorrent-Enhanced-Edition
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config
+git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns
 
 svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome
