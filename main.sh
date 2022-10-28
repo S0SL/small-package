@@ -33,20 +33,11 @@ svn export https://github.com/messense/openwrt-wiretrustee/trunk/wiretrustee
 svn export https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
-git_sparse_clone master "https://github.com/coolsnowwolf/packages" "leanpack" net/miniupnpd net/mwan3 multimedia/UnblockNeteaseMusic-Go \
-multimedia/UnblockNeteaseMusic net/amule net/baidupcs-web multimedia/gmediarender net/go-aliyundrive-webdav \
-net/qBittorrent-static net/qBittorrent libs/qtbase libs/qttools libs/rblibtorrent \
-net/uugamebooster net/verysync net/dnsforwarder net/nps net/microsocks net/tcpping net/redsocks2
 
-git_sparse_clone master "https://github.com/immortalwrt/packages" "immpack" net/sub-web \
-net/smartdns net/dnsproxy net/haproxy net/v2raya net/cdnspeedtest \
-net/subconverter net/ngrokc net/oscam net/njitclient net/scutclient net/gost net/gowebdav \
-admin/bpytop libs/jpcre2 libs/wxbase libs/rapidjson libs/libcron libs/quickjspp libs/toml11 \
-utils/cpulimit utils/filebrowser
 
-git_sparse_clone develop "https://github.com/Ysurac/openmptcprouter-feeds" "enmptcp" luci-app-snmpd \
-luci-app-packet-capture luci-app-mail msmtp
-git_sparse_clone master "https://github.com/x-wrt/com.x-wrt" "x-wrt" natflow lua-ipops luci-app-macvlan
+
+
+
 
 git_sparse_clone openwrt-21.02 "https://github.com/openwrt/openwrt" "21openwrt" package/libs/mbedtls \
 git_sparse_clone openwrt-21.02 "https://github.com/openwrt/packages" "21packages" \
