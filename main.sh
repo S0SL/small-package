@@ -18,36 +18,19 @@ mv -n `find $1/* -maxdepth 0 -type d` ./
 rm -rf $1
 }
 git clone --depth 1 https://github.com/kiddin9/aria2
-git clone --depth 1 https://github.com/kiddin9/luci-app-baidupcs-web
 git clone --depth 1 https://github.com/kiddin9/luci-theme-edge
 git clone --depth 1 https://github.com/kiddin9/qBittorrent-Enhanced-Edition
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config
 
-svn export https://github.com/coolsnowwolf/luci/trunk/libs/luci-lib-ipkg
-svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant
-svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-filebrowser
-svn export https://github.com/immortalwrt/luci/trunk/applications/luci-app-aliddns
 svn export https://github.com/immortalwrt/packages/trunk/net/smartdns
-svn export https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns/trunk/tencentcloud_ddns luci-app-tencentddns
-svn export https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-cos/trunk/tencentcloud_cos luci-app-tencentcloud-cos
 svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome
 svn export https://github.com/kiddin9/openwrt-packages/trunk/adguardhome
 svn export https://github.com/kenzok8/litte/trunk/luci-theme-atmaterial_new
 svn export https://github.com/kenzok8/litte/trunk/luci-theme-mcat
 svn export https://github.com/kenzok8/litte/trunk/luci-theme-tomato
-svn export https://github.com/x-wrt/packages/trunk/net/nft-qos
-svn export https://github.com/x-wrt/luci/trunk/applications/luci-app-nft-qos
-svn export https://github.com/kiddin9/openwrt-packages/trunk/luci-app-diskman
-svn export https://github.com/kiddin9/openwrt-packages/trunk/vsftpd-alt
-svn export https://github.com/messense/aliyundrive-fuse/trunk/openwrt && mvdir openwrt
 svn export https://github.com/messense/openwrt-wiretrustee/trunk/wiretrustee
-svn export https://github.com/messense/aliyundrive-webdav/trunk/openwrt aliyundrive && mvdir aliyundrive
-
 svn export https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-autoreboot
-svn export https://github.com/fw876/helloworld/trunk/sagernet-core
-svn export https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus
-svn export https://github.com/fw876/helloworld/trunk/lua-neturl
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
 git_sparse_clone master "https://github.com/coolsnowwolf/packages" "leanpack" net/miniupnpd net/mwan3 multimedia/UnblockNeteaseMusic-Go \
