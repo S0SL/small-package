@@ -32,7 +32,7 @@ svn export https://github.com/kenzok8/litte/trunk/luci-theme-tomato
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
 
 
-mv -n openwrt-package/* ./ ; rm -Rf openwrt-package
+
 
 rm -rf ./*/.git & rm -f ./*/.gitattributes
 rm -rf ./*/.svn & rm -rf ./*/.github & rm -rf ./*/.gitignore
